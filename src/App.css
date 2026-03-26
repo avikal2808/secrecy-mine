@@ -1,0 +1,5 @@
+/* App-level layout styles */
+.app-content {
+  flex: 1;
+  padding-top: 60px; /* navbar height */
+}
