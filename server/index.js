@@ -53,7 +53,7 @@ if (typeof allowedOrigin === "string") {
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: allowedOrigin,
     credentials: true,
   })
 );
